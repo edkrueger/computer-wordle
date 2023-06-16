@@ -6,6 +6,7 @@ GRAY = 0
 
 
 def get_wordle_words():
+    # source: https://github.com/tabatkins/wordle-list
     with open(os.path.join("computer_wordle", "possible_wordle_words.txt")) as f:
         wordle_words = set()
         for line in f:
