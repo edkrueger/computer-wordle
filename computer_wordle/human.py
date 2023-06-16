@@ -28,6 +28,7 @@ def human_play(target_word=None):
                 print("Try again!")
         if guess_word == target_word:
             print(f"You win! {round=}")
+            return
     print(f"You lose! {target_word=}")
 
 
